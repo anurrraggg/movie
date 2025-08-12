@@ -1,6 +1,6 @@
-import './Favorite.css';
+import './Fav';
 
-function Favorite() {
+function Fav() {
   return (
     <div className="favorite">
       <h2>Your favorites list is empty 🎥</h2>
@@ -9,4 +9,4 @@ function Favorite() {
   );
 }
 
-export default Favorite;
+export default Fav;
