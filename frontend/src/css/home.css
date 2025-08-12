@@ -1,0 +1,87 @@
+.home {
+  padding: 1rem;
+  background-color: var(--bg-panel);
+  flex: 1;
+}
+
+.search_form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.search-input {
+  flex: 1;
+  background: var(--bg-dark);
+  border: 1px solid #555;
+  padding: 0.6rem;
+  color: var(--text-light);
+  border-radius: 4px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.search-button {
+  background: var(--accent);
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.search-button:hover {
+  background: var(--accent-hover);
+}
+
+.movies_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 1rem;
+}
+
+.movie_card {
+  background: var(--bg-panel);
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.movie_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.5);
+}
+
+.movie_thumbnail {
+  background: black;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.movie_info {
+  padding: 0.8rem;
+}
+
+.add_fav_btn {
+  margin-top: 0.5rem;
+  width: 100%;
+  background: var(--accent);
+  border: none;
+  padding: 0.4rem;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.add_fav_btn:hover {
+  background: var(--accent-hover);
+}
