@@ -3,7 +3,7 @@ import Movie from './component/movie'
 function App() {
   return (
 <div>
-  <Movie />
+  <Movie movie_card="" />
 </div>
   )
 }
